@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Incline Dumbbel curl</title>
+    <link href="" rel="stylesheet" type="text/css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style media="screen">
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            font: poppints;
+            background-color: white;
+        }
+        
+        #main {
+            width: 100%;
+            height: 50vh;
+            position: relative;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(19, 18, 18);
+            box-shadow: 5px 10px 30px, rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+        
+        .logo img {
+            height: 80px;
+            width: 150%;
+        }
+        
+        .menu {
+            list-style: none;
+            display: flex;
+            float: right;
+            margin-right: 355px;
+        }
+        
+        .menu li a {
+            height: 40px;
+            line-height: 43px;
+            margin: 3px;
+            display: inline-block;
+            padding: 0px 32px;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: White;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .hey {
+            color: #39bfbd;
+            font-weight: 500;
+            font-size: 0.9em;
+            border-bottom: 2px solid #39bfbd;
+        }
+        
+        .image {
+            width: 600px;
+            height: 600px;
+        }
+        
+        .image img {
+            width: 90%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .Content {
+            display: flex;
+            width: 90%;
+            justify-content: center;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .main-text {
+            width: 500px
+        }
+        
+        .main-text h1 {
+            font-size: 2.5em;
+            color: #1c3548;
+            margin: 0px 0px 15px 0px;
+            line-height: 180px;
+        }
+        
+        .resume-btn {
+            width: 190px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #1db096;
+            border-radius: 20px;
+            box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+        }
+        
+        .resume-btn:hover {
+            background-color: #23cdaf;
+            transition: all ease 0.2;
+        }
+        
+        .menu li a:hover {
+            color: cyan;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
+        }
+        
+        .icons div {
+            height: 2.5rem;
+            width: 2.5rem;
+            line-height: 2.5rem;
+            border-radius: .5rem;
+            background: #eee;
+            color: var(--black);
+            font-size: 1rem;
+            margin-left: .3rem;
+            cursor: pointer;
+            text-align: center;
+            float: right;
+            margin-right: 5px;
+        }
+        
+        .icons div:hover {
+            background: var(--orange);
+            color: #fff;
+        }
+    </style>
+    <section id="main">
+        <nav>
+            <a href="" class="logo">
+                <img src="LOGO gym hut.png" alt="The Logo of Project Gym">
+            </a>
+
+            <span class="menu-space"></span>
+
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#">Skills</a> -->
+
+
+                </li>
+                <li><a href="#">Activities</a></li>
+                <!-- <li><a href="#">Clients</a></li> -->
+
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="icons">
+
+                <!-- <div class="fas fa-bars" id="menu-btn"></div> -->
+                <!-- <div class=" fas fa-bell" id="bell-btn "></div> -->
+                <div class=" fas fa-user " id="user-btn "></div>
+                <div class=" fab fa-instagram " id="instagram-btn "></div>
+                <div class=" fab fa-facebook " id="facebook-btn "></div>
+
+
+
+            </div>
+        </nav>
+
+    </section>
+</head>
+
+<body>
+   
+
+    <section class="Content">
+        <div class="image">
+            <img src="pullup.gif" alt="Single-Arm Cable Front Raise">
+        </div>
+        <div class="main-text">
+            <h1>Incline Dumbbell Curl</h1>
+            <p>
+
+                <h3>How it Works:</h3>
+                <ul>
+                    <b>1]</b></ul>
+                <ul>
+                    <b>2]</b></ul>
+                <ul><b>3]</b></ul>
+
+            </p>
+
+            <a href="#" class="resume-btn">See Video</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
