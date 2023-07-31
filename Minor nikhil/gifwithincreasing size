@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Collaspe</title>
+</head>
+<style>
+    #gust {
+        position: absolute;
+        z-index: -1;
+    }
+    
+    #hmr {
+        display: flex;
+    }
+    
+    #t1 {
+        float: right;
+    }
+    
+    #hrd {
+        float: left;
+        background-color: aqua;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .card {
+        left: 30%;
+        width: 60%;
+        display: flex;
+        flex: 60%;
+    }
+    
+    .card {
+        border-style: hidden;
+    }
+    
+    .GIF1 {
+        float: left;
+        left: 10%;
+        height: auto;
+        width: 150px;
+    }
+    
+    #mno {
+        height: 390px;
+        width: 350px;
+    }
+</style>
+
+<body>
+    <!-- <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Lin
+        k with href
+        </a> -->
+    <!-- 1st button -->
+
+    <!-- <h1>Bapu ko dekha tere...</h1> -->
+    <div>
+
+        <div class="GIF1">
+            <img id="mno" src=" pullup.gif " alt="Single-Arm Cable Front Raise ">
+        </div>
+        <div class="card " id="gust" style="width: 56rem; ">
+
+            <!-- <img src="... " class="card-img-top " alt="... "> -->
+            <div class="card-body ">
+
+                <h5 class="card-title ">Lateral Raises</h5>
+                <div id="hmr ">
+                    <div id="t1 ">
+                        <p class="card-text ">The lateral raise is a strength training shoulder exercise done by lifting a pair of dumbbells away from your body in an external rotation The dumbbell lateral raise is a good exercise for building width in your upper body which
+                            gives you the "V " shape.</p>
+                    </div>
+                    <!-- <div id="hrd ">
+                    </div> -->
+                </div>
+
+                <button class="btn btn-primary " type="button " id="button1 " data-toggle="collapse " data-target="#collapseExample " aria-expanded="false " aria-controls="collapseExample ">
+                        How to do>>>
+                    </button>
+                <div class="collapse " id="collapseExample ">
+                    <div class="card acard-body ">
+                        <section class="Content">
+
+                            <div class="main-text">
+
+                                <p>
+                                    The lateral raise is a strength training shoulder exercise done by lifting a pair of dumbbells away from your body in an external rotation The dumbbell lateral raise is a good exercise for building width in your upper body which gives you the "V" shape.
+
+                                    <h3>How it Works:</h3>
+                                    <ul>
+                                        <b>1]</b>Hold one dumbbell in each hand and keep them at your sides. Your grip should be closed and neutral. Keep your thumbs around the handles and your palms facing your body.</ul>
+                                    <ul>
+                                        <b>2]</b>Contract your abdominal muscles and pull your shoulders down and back. Your head should face forward in a neutral position aligned with your spine. </ul>
+                                    <ul><b>3]</b>Start to raise the dumbbells up and out to your sides. Once your arms are at shoulder level, rotate slightly upwards. The dumbbells should be pointing slightly upward. Stop when you reach your shoulders and
+                                        your arms are parallel with the floor.</ul>
+                                    <ul><b>4]</b>Start to lower the dumbbells slowly, rotating them slightly downward once you get past your shoulders. </ul>
+                                    <ul><b>5]</b>Repeat the movement. Perform 10 to 12 reps, with up to 3 sets. </ul>
+                                </p>
+
+                                <a href="#" class="resume-btn">See Video</a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 2nd button -->
+
+
+    <!-- 3rd button -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
